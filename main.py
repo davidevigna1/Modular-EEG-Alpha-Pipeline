@@ -6,7 +6,6 @@ import createfile
 import os
 from datetime import datetime
 
-# Calcolo percorsi assoluti
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 REPORTS_DIR = os.path.join(BASE_DIR, "reports")
 
